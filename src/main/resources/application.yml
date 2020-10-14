@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/static/
+  main:
+    allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+socket:
+  server:
+    port: 28093
+    token-timeout: 86400
