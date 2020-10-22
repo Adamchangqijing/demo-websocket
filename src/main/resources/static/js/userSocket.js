@@ -18,7 +18,7 @@ window.onload=function () {
     //获取url
     // var sendNoticeUrl = null;
     // sendNoticeUrl = data.data;
-    var socket = new WebsocketLink({url:"ws://127.0.0.1:28093", packetMsg:packetMsg, isBolt:true});
+    var socket = new WebsocketLink({url:"ws://150.158.160.71:28093", packetMsg:packetMsg, isBolt:true});
     packetMsg.socket = socket;
     packetMsg.businessProcess = businessProcess(packetMsg);
     socket.start();
